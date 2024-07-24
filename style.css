@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  .uno {
+    flex: 0.3;
+    padding: 10px;
+    background-color: #f0f0f0; padding: 10px;
+  }
+  .column {
+    flex: 0.2;
+    padding: 20px;
+    text-align:left;
+  }
+  h1{
+    text-align: center;
+    margin: 0;
+    color:gray;
+  }
+   
+  .final{
+    color: orangered;
+  }
+  h2{
+    text-align: center;
+    color:grey;
+  }
+   h4 {
+    flex: 0;
+    padding: 5%;
+    background-color: white; 
+    padding: 2px;
+    display: inline-block;
+    width:25%;
+    margin-right: 5%; 
+    color: orangered;
+    font-size: 1em;
+  }
+  h3{
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    text-align: justify;
+    
+  }
+   
+  h5{
+    color: gray;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .list li {
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  
+  .lista li{
+    text-align: justify;
+  }
+  p{
+    text-align:justify;
+    color: gray;
+  
+  }
+  .contenedor {
+    justify-content:space-between; 
+  }
+  .parrafo {
+    margin: 2%; 
+    display:block;
+    text-align:left;
+  }
+  
+  .orange {
+    color: orange;
+    font-size: 2rem;
+    margin-right: 1px;
+  }
+    
+  h5{
+    font-size: 1.5em;
+    text-align:start;
+  }
+  
+  aside p{
+    display: inline-block;
+  }
+  
+  .mi-seccion{
+    display:inline-flex;
+  }
+  .mi-seccion li{
+  margin: 0;
+  text-align:justify;
+  }
+  
+  footer{
+    margin-left: 20px;
+  }
+  
+  .lista{
+    list-style-type: disc; 
+      margin: 0;
+      padding: 5;
+      flex-direction: column; 
+  }
+  .lista li {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .parrafo {
+    display: grid;
+  }
+  .cont p{
+    margin-top: -20px;
+    flex-direction: column;
+  }
+  .parrafo{
+    margin-top:-20px ;
+    text-align: center;
+  left: 0;
+  top: 100%;
+  width: 50%;
+  margin: 0 auto;
+  }
+  
